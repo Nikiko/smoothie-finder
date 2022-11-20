@@ -1,6 +1,5 @@
-# Content v2 Minimal Starter
+# Smoothie finder (WIP Nuxt3/Content Project)
 
-Look at the [Content documentation](https://content-v2.nuxtjs.org/) to learn more.
 
 ## Setup
 
