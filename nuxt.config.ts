@@ -2,12 +2,16 @@
 export default defineNuxtConfig({
   modules: [
     '@nuxt/content',
-    "@nuxtjs/color-mode",
-    '@nuxtjs/tailwindcss'
+    '@nuxtjs/color-mode',
+    '@nuxtjs/tailwindcss',
+    'nuxt-icon',
   ],
   tailwindcss: {
     // add '~tailwind.config` alias
     exposeConfig: true
+  },
+  build: {
+    transpile: ['@headlessui/vue'],
   },
   colorMode: {
     classSuffix: ""
